@@ -1,0 +1,125 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background: #FF0099;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* Main card with everything in it */
+
+.card {
+    margin-top:10rem;
+    display:flex;
+    flex-direction: column;
+    width: 950px;
+    height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position:relative;
+}
+
+/* Left side of the card with some styling */
+
+.left-row {
+    width:35%;
+    height:100%;
+    background-image: url(cucumber.jpg);
+    background-size: cover;
+    position:absolute;
+}
+
+/* Right side of the card with minimal styling */
+
+.right-row {
+    margin-left:20.8rem;
+    display:flex;
+    width:65%;
+    height:100%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(253, 91, 199);
+    background: white;
+}
+
+/* Styling of the right card */
+
+.right-row h1 {
+    margin-top:5rem;
+    margin-left:3rem;
+}
+
+/* Styling of the form */
+
+.right-row input:focus {
+    border-style:none;
+    outline:none;
+}
+
+.right-row section:nth-of-type(1) label {
+    margin-top:10rem;
+    display: inline-block;
+    position:absolute;
+}
+
+.right-row section:nth-of-type(1) input {
+    margin-top:11.5rem;
+    display: inline-block;
+    border-style:none;
+    border-bottom:1px solid black;
+}
+
+.right-row section:nth-of-type(2) label {
+    margin-top:1rem;
+    display: inline-block;
+    position:absolute;
+}
+
+.right-row section:nth-of-type(2) input {
+    margin-top:2.5rem;
+    display: inline-block;
+    border-style:none;
+    border-bottom:1px solid black;
+}
+
+.right-row section:nth-of-type(3) label {
+    margin-top:1.3rem;
+    display: inline-block;
+    position:absolute;
+}
+
+.right-row section:nth-of-type(3) input {
+    margin-top:3rem;
+    display: inline-block;
+    border-style:none;
+    border-bottom:1px solid black;
+}
+
+
+.right-row section:nth-of-type(4) p {
+    margin-left:13rem;
+    margin-top:-2rem;
+}
+
+.right-row section:nth-of-type(4) a {
+    text-decoration: none;
+    margin-left:13rem;
+}
+
+/* Styling of the button */
+
+.right-row section button {
+    margin-top:2.5rem;
+    width:175px;
+    height:40px;
+    background-color:blue;
+    color:white;
+    font-size:17px;
+    border:none;
+}
