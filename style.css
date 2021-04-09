@@ -13,6 +13,15 @@ body {
 
 }
 
+h1 {
+    color: rgb(253, 91, 199);
+}
+
+a {
+    color: rgb(253, 91, 199);
+    border-bottom:1px solid rgb(253, 91, 199);
+}
+
 .card {
     margin-top:10rem;
     display:flex;
@@ -39,7 +48,7 @@ body {
     height:100%;
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
-    color:rgb(253, 91, 199);
+    color: black;
     background: white;
 }
 
@@ -51,6 +60,10 @@ body {
 .right-row input:focus {
     border-style:none;
     outline:none;
+}
+
+.right-row section label, p, ::placeholder {
+    color: rgb(198, 198, 198);
 }
 
 .right-row section:nth-of-type(1) label {
